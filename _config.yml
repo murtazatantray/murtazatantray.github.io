@@ -1,5 +1,6 @@
 theme: minima
-author: murtazatantray
-title: M Murtaza
-description: This is test
+author: Muhammad Murtaza Tantry
 exclude: ["README.md"]
+skin: dark
+github_username: murtazatantray
+linkedin_username: muhammad-murtaza-tantry-21a1062b8
