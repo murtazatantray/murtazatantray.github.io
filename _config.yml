@@ -211,7 +211,8 @@ exclude:
   - _books/
   - _pages/teaching.md
   - assets/jupyter/blog.ipynb
-  - -pages/profiles.md
+  - _pages/profiles.md
+  - _pages/dropdown.md
   
 keep_files:
   - CNAME
