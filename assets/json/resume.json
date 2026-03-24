@@ -40,13 +40,10 @@
     {
       "name": "GATE - Mathematics",
       "date": "2026",
-      "url": "",
       "summary": "AIR: 115"
     },
     {
-      "name": "JAM - Mathematics",
-      "date": "2018",
-      "url": ""
+      "name": "JAM - Mathematics"
     }
   ],
   "skills": [
@@ -54,6 +51,7 @@
       "name": "Programming & Software",
       "keywords": [
         "Python",
+        "MATLAB",
         "PyTorch",
         "DeepXDE"
       ]
