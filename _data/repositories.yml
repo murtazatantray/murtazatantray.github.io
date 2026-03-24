@@ -1,14 +1,14 @@
+# GitHub users whose public repositories you want to display automatically
 github_users:
-  - torvalds
-  - alshedivat
+  - murtazatantray 
+
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - lululxvi/deepxde 
+  - xgxgnpu/My-awesome-PINN-papers   
+  - xgxgnpu/J-PIKAN                  
+  - FEniCS/dolfinx    
+  - lululxvi/hpinn
+  - raj-brown/APMA_2070_ENGN_2912_SPRING_2024
