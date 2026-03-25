@@ -1,1 +1,1 @@
-# [murtazatantray.github.io]
+[Click to Open](https://murtazatantray.github.io)
