@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Murtaza Tantry — Research Scholar, PINNs & CFD</title>
+  <meta name="description" content="Academic homepage of Muhammad Murtaza Tantry — Ph.D. Research Scholar at Vellore Institute of Technology (VIT). Physics-Informed Neural Networks (PINNs), scientific machine learning, and computational fluid dynamics for viscoelastic boundary layer flows." />
+  <meta name="author" content="Muhammad Murtaza Tantry" />
+  <meta name="keywords" content="Muhammad Murtaza Tantry, Physics-Informed Neural Networks, PINNs, Computational Fluid Dynamics, CFD, scientific machine learning, viscoelastic flow, boundary layer, VIT Vellore, DeepXDE, PyTorch" />
+  <link rel="canonical" href="https://murtazatantray.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Muhammad Murtaza Tantry — Research Scholar, PINNs & CFD" />
+  <meta property="og:description" content="Ph.D. Research Scholar at VIT Vellore. Physics-Informed Neural Networks for viscoelastic boundary layer flows." />
+  <meta property="og:url" content="https://murtazatantray.github.io/" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%9B%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Murtaza Tantry",
+    "url": "https://murtazatantray.github.io/",
+    "email": "mailto:murtazatantray@gmail.com",
+    "jobTitle": "Ph.D. Research Scholar",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Vellore Institute of Technology"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Hyderabad" },
+      { "@type": "CollegeOrUniversity", "name": "Jamia Millia Islamia" }
+    ],
+    "knowsAbout": ["Physics-Informed Neural Networks", "Computational Fluid Dynamics", "Scientific Machine Learning", "Viscoelastic Boundary Layer Flow"],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=pXJwVxgAAAAJ",
+      "https://github.com/murtazatantray",
+      "https://www.linkedin.com/in/muhammad-murtaza-tantry-21a1062b8",
+      "https://orcid.org/0009-0005-5311-7725"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">
+        <span class="nav__mark">MMT</span>
+        <span class="nav__name">Muhammad Murtaza Tantry</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#more">More</a>
+      </nav>
+      <div class="nav__actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1Zm0-18a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1Zm11 11a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1ZM4 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm15.07 7.07a1 1 0 0 1-1.41 0l-.71-.71a1 1 0 1 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41ZM6.34 6.34a1 1 0 0 1-1.41 0l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41Zm12.02-2.83a1 1 0 0 1 0 1.41l-.71.71A1 1 0 1 1 16.24 4.2l.71-.71a1 1 0 0 1 1.41 0ZM6.34 17.66a1 1 0 0 1 0 1.41l-.71.71A1 1 0 0 1 4.22 18.4l.71-.71a1 1 0 0 1 1.41 0Z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M21.64 13a1 1 0 0 0-1.05-.14 8 8 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8 8 0 0 1 .73-3.36A1 1 0 0 0 8.14 1 10.14 10.14 0 1 0 23 15.87a1 1 0 0 0-1.36-2.87Z"/></svg>
+        </button>
+        <button id="navToggle" class="icon-btn nav__burger" aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Ph.D. Research Scholar · VIT Vellore</p>
+          <h1 class="hero__title">Muhammad Murtaza Tantry</h1>
+          <p class="hero__lead">
+            I build <strong>Physics-Informed Neural Networks (PINNs)</strong> that simulate the
+            boundary layer flow of <strong>viscoelastic fluids</strong>, bridging classical
+            computational fluid dynamics with modern scientific machine learning.
+          </p>
+          <div class="hero__meta">
+            <span class="chip"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M12 2 1 7l11 5 9-4.09V17h2V7L12 2zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg> School of Advanced Sciences</span>
+            <span class="chip"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg> Vellore, Tamil Nadu, India</span>
+          </div>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="assets/pdf/MM_Tantry_CV.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 16 6 10l1.4-1.4 3.6 3.6V2h2v10.2l3.6-3.6L18 10zM4 20v-2h16v2z"/></svg>
+              Download CV
+            </a>
+            <a class="btn btn--ghost" href="mailto:murtazatantray@gmail.com">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+              Get in touch
+            </a>
+          </div>
+          <ul class="hero__socials" aria-label="Profiles">
+            <li><a href="https://scholar.google.com/citations?user=pXJwVxgAAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9zM5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg></a></li>
+            <li><a href="https://orcid.org/0009-0005-5311-7725" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zM8.06 6.9a1.02 1.02 0 1 1 0 2.05 1.02 1.02 0 0 1 0-2.05zM7.2 9.9h1.7v7.6H7.2zm3.1 0h3.28c3.12 0 4.5 2.23 4.5 3.8 0 1.71-1.34 3.8-4.48 3.8H10.3zm1.7 1.53v4.54h1.44c2.05 0 2.75-1.55 2.75-2.27 0-1.17-.75-2.27-2.8-2.27z"/></svg></a></li>
+            <li><a href="https://github.com/murtazatantray" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.62-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57A12 12 0 0 0 12 .5z"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/in/muhammad-murtaza-tantry-21a1062b8" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a></li>
+            <li><a href="mailto:murtazatantray@gmail.com" title="Email" aria-label="Email"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></a></li>
+          </ul>
+        </div>
+        <div class="hero__portrait">
+          <!--
+            To use a real photo, replace the monogram below with:
+            <img src="assets/img/profile.jpg" alt="Portrait of Muhammad Murtaza Tantry" width="480" height="640" />
+            and drop the image at assets/img/profile.jpg
+          -->
+          <div class="portrait-frame portrait-frame--mono" role="img" aria-label="Muhammad Murtaza Tantry monogram">
+            <span class="monogram">MMT</span>
+            <span class="monogram__sub">Ph.D. · PINNs · CFD</span>
+          </div>
+          <dl class="id-card">
+            <div><dt>Scopus</dt><dd>59762028000</dd></div>
+            <div><dt>ResearcherID</dt><dd>PXX-8171-2026</dd></div>
+            <div><dt>ORCID</dt><dd>0009-0005-5311-7725</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="section__head">
+        <span class="section__kicker">01 — Profile</span>
+        <h2 class="section__title">About</h2>
+      </div>
+      <div class="about">
+        <div class="about__lede">
+          <p>
+            I am a full-time Ph.D. Research Scholar in the Department of Mathematics,
+            School of Advanced Sciences at <strong>Vellore Institute of Technology (VIT), Vellore</strong>,
+            working under the supervision of <strong>Dr. Padigepati Naveen</strong>.
+          </p>
+          <p>
+            My doctoral research develops <em>Physics-Informed Neural Networks for simulating the
+            boundary layer flow of viscoelastic fluids</em>. I focus on non-Newtonian fluid mechanics —
+            second-grade and Maxwell fluids, nanofluid aggregation, radiation and slip effects — and on
+            deep-learning frameworks that solve the governing nonlinear differential equations without
+            relying solely on classical numerical schemes.
+          </p>
+        </div>
+        <ul class="about__facts">
+          <li><span class="about__num">3</span><span class="about__lbl">Journal articles published</span></li>
+          <li><span class="about__num">2</span><span class="about__lbl">Manuscripts under review</span></li>
+          <li><span class="about__num">AIR&nbsp;115</span><span class="about__lbl">GATE Mathematics</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH INTERESTS ============ -->
+    <section id="research" class="section section--alt">
+      <div class="section__head">
+        <span class="section__kicker">02 — Focus</span>
+        <h2 class="section__title">Research Interests</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card__icon">🧠</div>
+          <h3>Physics-Informed Neural Networks</h3>
+          <p>Embedding governing PDEs into neural network training to solve forward and inverse problems in fluid mechanics.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🌊</div>
+          <h3>Boundary Layer Flow</h3>
+          <p>Non-similar and similar boundary layer flows of viscoelastic and non-Newtonian fluids over stretching surfaces.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">💧</div>
+          <h3>Computational Fluid Dynamics</h3>
+          <p>Modelling heat and mass transfer, nanoparticle aggregation, radiation, and slip in complex fluid systems.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">⚙️</div>
+          <h3>Scientific Machine Learning</h3>
+          <p>Adaptive loss balancing, deep-learning surrogates, and numerical methods for nonlinear differential equations.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section id="publications" class="section">
+      <div class="section__head">
+        <span class="section__kicker">03 — Output</span>
+        <h2 class="section__title">Research Publications</h2>
+      </div>
+
+      <h3 class="pub-group">Journal Articles</h3>
+      <ol class="pub-list">
+        <li class="pub">
+          <div class="pub__year">2026</div>
+          <div class="pub__body">
+            <p class="pub__title">Thomson and Troian slip condition for radiating second-grade nanofluid flow with shape effects of gold nanoparticles</p>
+            <p class="pub__authors"><strong>M. M. Tantry</strong> and P. Naveen</p>
+            <p class="pub__venue"><em>Numerical Heat Transfer, Part A: Applications</em>, vol.&nbsp;87, no.&nbsp;1, p.&nbsp;2527403.</p>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub__year">2025</div>
+          <div class="pub__body">
+            <p class="pub__title">Artificial neural network modelling for Casson hybrid nanofluid flow with entropy generation analysis</p>
+            <p class="pub__authors">P. Naveen, <strong>M. M. Tantry</strong>, P. Sathya, and S. Sindhuja</p>
+            <p class="pub__venue"><em>Multiscale and Multidisciplinary Modeling, Experiments and Design</em>, vol.&nbsp;8, no.&nbsp;6, p.&nbsp;288.</p>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub__year">2025</div>
+          <div class="pub__body">
+            <p class="pub__title">Aggregation kinematics on gold nanoparticles in radiating viscoelastic second-grade fluid flow with Thomson and Troian velocity slip condition</p>
+            <p class="pub__authors"><strong>M. M. Tantry</strong> and P. Naveen</p>
+            <p class="pub__venue"><em>Journal of Thermal Analysis and Calorimetry</em>, vol.&nbsp;150, no.&nbsp;12, pp.&nbsp;9279–9291.</p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="pub-group">Manuscripts Communicated</h3>
+      <ol class="pub-list">
+        <li class="pub pub--pending">
+          <div class="pub__year">2026<span class="pub__badge">Under review</span></div>
+          <div class="pub__body">
+            <p class="pub__title">Adaptive Loss Balanced Physics-Informed Neural Networks for Non-similar Flow of Maxwell Fluid: A Deep Learning Framework</p>
+            <p class="pub__authors"><strong>M. M. Tantry</strong> and P. Naveen</p>
+            <p class="pub__venue">Submitted, 2026.</p>
+          </div>
+        </li>
+        <li class="pub pub--pending">
+          <div class="pub__year">2026<span class="pub__badge">Under review</span></div>
+          <div class="pub__body">
+            <p class="pub__title">A Deep Learning Approach with PINNs for Simulating Second-Grade Hybrid Nanofluid Flow over a Radially Extending Sheet</p>
+            <p class="pub__authors"><strong>M. M. Tantry</strong> and P. Naveen</p>
+            <p class="pub__venue">Submitted, 2026.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section section--alt">
+      <div class="section__head">
+        <span class="section__kicker">04 — Background</span>
+        <h2 class="section__title">Education</h2>
+      </div>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__date">2023 — Present</div>
+          <div class="timeline__content">
+            <h3>Ph.D., Mathematics</h3>
+            <p class="timeline__org">Vellore Institute of Technology, Vellore</p>
+            <p class="timeline__desc">Thesis: <em>Physics-Informed Neural Networks for Simulating Boundary Layer Flow of Viscoelastic Fluids.</em><br />Advisor: Dr. Padigepati Naveen.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__date">2018 — 2020</div>
+          <div class="timeline__content">
+            <h3>M.Sc., Mathematics</h3>
+            <p class="timeline__org">University of Hyderabad</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__date">2015 — 2018</div>
+          <div class="timeline__content">
+            <h3>B.Sc. (Hons.), Mathematics</h3>
+            <p class="timeline__org">Jamia Millia Islamia</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="section__head">
+        <span class="section__kicker">05 — Toolkit</span>
+        <h2 class="section__title">Skills</h2>
+      </div>
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Programming</h3>
+          <ul class="tags">
+            <li>Python</li><li>MATLAB</li><li>LaTeX</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>ML &amp; Scientific Computing</h3>
+          <ul class="tags">
+            <li>PyTorch</li><li>TensorFlow</li><li>DeepXDE</li><li>SciPy</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>High-Performance Computing</h3>
+          <ul class="tags">
+            <li>SLURM job scheduling</li><li>Array jobs</li><li>Conda environments</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Languages</h3>
+          <ul class="tags">
+            <li>English</li><li>Urdu</li><li>Kashmiri</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Miscellaneous</h3>
+          <ul class="tags">
+            <li>Academic research</li><li>Teaching &amp; training</li><li>Consultation</li><li>LaTeX typesetting &amp; publishing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MORE (Awards / Talks / Workshops / References) ============ -->
+    <section id="more" class="section section--alt">
+      <div class="section__head">
+        <span class="section__kicker">06 — Also</span>
+        <h2 class="section__title">Honors, Talks &amp; Training</h2>
+      </div>
+
+      <div class="more-grid">
+        <div class="panel">
+          <h3 class="panel__title"><span class="panel__ico">🏅</span> Awards &amp; Honors</h3>
+          <ul class="lined">
+            <li><strong>GATE Mathematics</strong> — All India Rank 115.</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3 class="panel__title"><span class="panel__ico">🎤</span> Talks &amp; Presentations</h3>
+          <ul class="lined">
+            <li>
+              <span class="lined__year">2026</span>
+              <strong>PhD Colloquium</strong>, Department of Mathematics, VIT Vellore — presented four research problems on Physics-Informed Neural Networks for viscoelastic boundary layer flows.
+            </li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3 class="panel__title"><span class="panel__ico">📚</span> Workshops &amp; Training</h3>
+          <ul class="lined">
+            <li>
+              <span class="lined__year">2024</span>
+              <strong>NCMW — Numerical Methods for Partial Differential Equations</strong>, Indian Institute of Petroleum and Energy (IIPE), Visakhapatnam.
+            </li>
+            <li>
+              <span class="lined__year">2023</span>
+              <strong>5-Day International Workshop on Recent Advances in Differential Equations and Applications (IWRADEA)</strong>, VIT-AP University, Andhra Pradesh. 27–31 October 2023.
+            </li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3 class="panel__title"><span class="panel__ico">👤</span> References</h3>
+          <ul class="lined">
+            <li>
+              <strong>Dr. Padigepati Naveen</strong><br />
+              Assistant Professor, Department of Mathematics,<br />
+              School of Advanced Sciences, Vellore Institute of Technology, Vellore.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <div class="contact__card">
+        <h2>Let's collaborate</h2>
+        <p>Open to discussions on Physics-Informed Neural Networks, viscoelastic flow modelling, and research collaborations.</p>
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="mailto:murtazatantray@gmail.com">murtazatantray@gmail.com</a>
+          <a class="btn btn--ghost" href="assets/pdf/MM_Tantry_CV.pdf" target="_blank" rel="noopener">View full CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>© <span id="year"></span> Muhammad Murtaza Tantry</p>
+      <ul class="footer__links">
+        <li><a href="https://scholar.google.com/citations?user=pXJwVxgAAAAJ" target="_blank" rel="noopener">Scholar</a></li>
+        <li><a href="https://orcid.org/0009-0005-5311-7725" target="_blank" rel="noopener">ORCID</a></li>
+        <li><a href="https://github.com/murtazatantray" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/muhammad-murtaza-tantry-21a1062b8" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+      <p class="footer__note">Built with plain HTML &amp; CSS · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 8l6 6-1.4 1.4L12 10.8 7.4 15.4 6 14z"/></svg>
+  </button>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
